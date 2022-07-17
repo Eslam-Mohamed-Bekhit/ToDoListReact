@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+
+
+
+
+body {
+  margin: 0;
+  padding:0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background-color: #46529d;
+  color:#fff
+}
+
+.text-center{
+  text-align: center;
+}
+.container{
+  width:60%;
+  margin:10% auto
+}
+.ListItem{
+  background-color: #fff;
+  color:#46529d
+
+}
+.ListItem p{
+margin:0;
+text-align:center;
+padding:10px 0px;
+
+}
+.ListItem span{
+   display: inline-block;
+    text-align:center;
+    padding:10px 0px;
+    border:0.3px solid #ccc;
+    font-size:20px;
+    }
+
+
+  .ListItem span.title{
+    background-color: #2ebaee;
+    color:#fff
+      }
+
+  .ListItem span.name,form input[type=text]{
+  width:60%
+    }
+
+
+    .ListItem span.age,form input[type=number]{
+    width:30%;
+    }
+
+
+    .ListItem span.action,form input[type=submit]{
+    width:10%
+    }
+
+
+
+  
+  .ListItem span.icon{
+    background-color: #2ebaee;
+    cursor: pointer;
+      }
+    form input{
+        padding:10px;
+        background:#ebebeb;
+        border:0.3px solid #ccc;
+        border:transparent;
+      }
+      form input[type=submit]{
+        cursor: pointer;
+        background:#2ebaee;
+        border:0.3px solid #ccc;
+        color:#fff
+      }
+
